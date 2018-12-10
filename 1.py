@@ -1,2 +1,2 @@
-string=str(raw_input())
-print string[::-1]
+strings=str(raw_input())
+print strings[::-1]
