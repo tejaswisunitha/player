@@ -1,8 +1,8 @@
-c=int(raw_input())
+a=int(raw_input())
 x=1
-while(x<=c):
+while(x<=a):
     z=0
-    if(c%x==0):
+    if(a%x==0):
         y=1
         while(y<=x):
             if(x%y==0):
