@@ -1,11 +1,11 @@
-v,kk=raw_input().split()
+v,k=raw_input().split()
 v=int(v)
-kk=int(kk)
+k=int(k)
 l=[]
-if v==1 or kk==1:
+if v==1 or k==1:
 	print "1"
 else:
-	for i in range(2,v*kk):
-		if (v%i==0 and kk%i==0):
+	for i in range(2,v*k):
+		if (v%i==0 and k%i==0):
 			l.append(i)
 	print max(l)
