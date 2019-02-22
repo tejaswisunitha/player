@@ -1,3 +1,3 @@
-strng=input()
-if strng.count('(')==strng.count(')'):print("yes")
+str=input()
+if str.count('(')==str.count(')'):print("yes")
 else:print("no")
