@@ -9,4 +9,6 @@ for i in range(0,len(k)):
 	l1.append(a)
 for i in range(0,len(l1)-1):
 	print(l1[i],end=" ")
-print(l1[-1])	
+print(l1[-1])
+
+
